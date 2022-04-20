@@ -7,3 +7,4 @@ _version.py
 .eggs/
 build/
 *.pyc
+**/__pycache__
