@@ -74,7 +74,7 @@ setup(
     #     "Programming Language :: Python :: 3.8",
     #     "Programming Language :: Python :: 3.9",
     # ],
-    packages=["aerobulk", "aerobulk.aerobulk"],
+    packages=find_packages("aerobulk"),
     install_requires=install_requires,
     python_requires=">=3.7",
     # long_description=long_description,
